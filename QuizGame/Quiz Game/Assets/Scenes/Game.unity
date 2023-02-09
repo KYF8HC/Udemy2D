@@ -1179,8 +1179,8 @@ MonoBehaviour:
   - {fileID: 5359903}
   - {fileID: 1791742759}
   - {fileID: 1215418212}
-  defaultAnswerSprite: {fileID: 0}
-  correctAnswerSprite: {fileID: 0}
+  defaultAnswerSprite: {fileID: 21300000, guid: e27502abdf8dcce4e97f2a349459c85b, type: 3}
+  correctAnswerSprite: {fileID: 21300000, guid: 62182a60f4b76ff4b93885b686039de7, type: 3}
 --- !u!1001 &1956466569
 PrefabInstance:
   m_ObjectHideFlags: 0
