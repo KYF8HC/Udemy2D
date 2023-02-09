@@ -19,4 +19,4 @@ MonoBehaviour:
   - Snake
   - Dragon
   - Bear
-  correctAnswerIndex: 0
+  correctAnswerIndex: 1
