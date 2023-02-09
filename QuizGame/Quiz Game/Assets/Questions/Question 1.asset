@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   Question: What spell did Harry use to kill Lord Voldemort?
+  answers:
+  - Expelliarmus
+  - Expecto Patronum
+  - Avada Kedavra
+  - Accio
+  correctAnswerIndex: 1

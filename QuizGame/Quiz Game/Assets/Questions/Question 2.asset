@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: "At the first meeting of the Duelling Club, Draco Malfoy summoned what
     animal with the spell \u2018Serpensortia\u2019?"
+  answers:
+  - Frog
+  - Snake
+  - Dragon
+  - Bear
+  correctAnswerIndex: 0

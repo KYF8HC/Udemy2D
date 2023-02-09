@@ -12,11 +12,11 @@ public class QuestionSO : ScriptableObject
     {
         return Question;
     }    
-    public int getcorrectAnswerIndex()
+    public int getCorrectAnswerIndex()
     {
         return correctAnswerIndex;
     }  
-    public string getAnswerIndex(int index)
+    public string getAnswerAtIndex(int index)
     {
         return answers[index];
     }  

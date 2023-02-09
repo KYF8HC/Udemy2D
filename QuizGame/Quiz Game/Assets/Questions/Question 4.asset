@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: "Gilderoy Lockhart tried to use \u2018Brackium Emendo\u2019 to fix Harry\u2019s
     broken bones. What did it actually do to him?"
+  answers:
+  - Turned his leg wooden
+  - Removed his bones entirely
+  - Forced him to speak Parseltongue
+  - Gave him an exquisite singing voice
+  correctAnswerIndex: 0

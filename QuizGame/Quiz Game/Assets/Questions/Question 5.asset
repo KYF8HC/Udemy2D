@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 5
   m_EditorClassIdentifier: 
   Question: Which Patronus belongs to Luna Lovegood?
+  answers:
+  - Doe
+  - Rabbit
+  - Dog
+  - Horse
+  correctAnswerIndex: 0
