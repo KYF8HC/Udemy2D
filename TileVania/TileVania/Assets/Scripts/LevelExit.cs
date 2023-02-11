@@ -17,6 +17,7 @@ public class LevelExit : MonoBehaviour
         int nextSceneIndex = currentSceneIndex + 1;
         if(nextSceneIndex == SceneManager.sceneCountInBuildSettings)
             nextSceneIndex = 0;
+        FindObjectOfType<ScenePersist>().resetScenePresist();
         SceneManager.LoadScene(nextSceneIndex);
         yield return new WaitForSecondsRealtime(levelLoadDelay);
     }

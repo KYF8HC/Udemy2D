@@ -422,5 +422,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLives: 3
+  score: 0
   livesText: {fileID: 1013725415}
   scoreText: {fileID: 1159496768}
