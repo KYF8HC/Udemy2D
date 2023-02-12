@@ -31,7 +31,7 @@ public class EnemySpawner : MonoBehaviour
                 }
                 yield return new WaitForSeconds(timeBetweenWaves);
             }
-        }while(isLooping)
+        }while(isLooping);
     }
     public WaveConfigSO GetCurrentWave()
     {
