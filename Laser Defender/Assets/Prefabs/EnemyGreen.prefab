@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4880817941414057323}
   - component: {fileID: 3267875476713212893}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: playerShip3_green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 5cf70659e83ab164a8d5885c1ab85348, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: -6510447084478569149}
   - component: {fileID: -3703218088862607610}
   - component: {fileID: 3012228431010600614}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
