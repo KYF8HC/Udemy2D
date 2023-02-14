@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 1954283513283172550}
   - component: {fileID: -6510447084478569149}
   - component: {fileID: -3703218088862607610}
-  - component: {fileID: 3012228431010600614}
   - component: {fileID: 4836054147419287572}
   m_Layer: 7
   m_Name: EnemyGreen
@@ -185,19 +184,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   hitEffect: {fileID: 7657215966609809084, guid: 4044867304944b44ba436183c6a11624, type: 3}
---- !u!114 &3012228431010600614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8262165429634067226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0feb07c6cf18c9d429222599e913f82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damage: 50
+  applyCameraShake: 0
+  givenScore: 50
 --- !u!114 &4836054147419287572
 MonoBehaviour:
   m_ObjectHideFlags: 0

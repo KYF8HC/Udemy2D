@@ -17,8 +17,14 @@ public class Shooter : MonoBehaviour
     [SerializeField]float minimumfiringRate = 0.2f;
 
     [HideInInspector]public bool isFiring;
-    Coroutine firingCoroutine;
 
+    Coroutine firingCoroutine;
+    AudioPlayer audioPlayer;
+
+    void Awake()
+    {
+        audioPlayer = FindObjectOfType<AudioPlayer>();    
+    }
     void Start()
     {
         if(useAI)
@@ -54,6 +60,7 @@ public class Shooter : MonoBehaviour
             float spawnTime = UnityEngine.Random.Range(firingRate - firingRateVariance, 
                                         firingRate + firingRateVariance);
             spawnTime = Mathf.Clamp(spawnTime, minimumfiringRate, float.MaxValue);
+            audioPlayer.PlayShootingClip();
             yield return new WaitForSeconds(spawnTime);
         }
     }

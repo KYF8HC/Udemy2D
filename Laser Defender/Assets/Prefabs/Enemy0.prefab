@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: -6133249688604076114}
   - component: {fileID: -1465508651655629380}
   - component: {fileID: -1474856289442960211}
-  - component: {fileID: -2026382501184436059}
   - component: {fileID: 2345884756527674032}
   m_Layer: 7
   m_Name: Enemy0
@@ -185,19 +184,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   hitEffect: {fileID: 7657215966609809084, guid: 4044867304944b44ba436183c6a11624, type: 3}
---- !u!114 &-2026382501184436059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6301664820878638851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0feb07c6cf18c9d429222599e913f82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damage: 50
+  applyCameraShake: 0
+  givenScore: 50
 --- !u!114 &2345884756527674032
 MonoBehaviour:
   m_ObjectHideFlags: 0
